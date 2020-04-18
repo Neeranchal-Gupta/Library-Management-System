@@ -1,3 +1,4 @@
+
 package com.fet.librarymanagement.enumerations;
 
 public enum UserRoles {
@@ -7,3 +8,4 @@ public enum UserRoles {
     UserRoles() {
     }
 }
+
