@@ -1,4 +1,4 @@
-package com.fet.librarymanagement.payload.book;
+package com.fet.librarymanagement.entities.book;
 
 import com.fet.librarymanagement.enumerations.ReservationStatus;
 

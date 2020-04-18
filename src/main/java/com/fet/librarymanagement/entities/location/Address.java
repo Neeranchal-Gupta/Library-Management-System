@@ -1,4 +1,4 @@
-package com.fet.librarymanagement.payload.location;
+package com.fet.librarymanagement.entities.location;
 
 public class Address {
 

@@ -1,4 +1,4 @@
-package com.fet.librarymanagement.payload.account;
+package com.fet.librarymanagement.entities.account;
 
 import java.util.Date;
 

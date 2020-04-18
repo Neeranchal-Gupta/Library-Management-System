@@ -1,13 +1,13 @@
-package com.fet.librarymanagement.payload.catalog.impl;
+package com.fet.librarymanagement.entities.services.impl;
 
-import com.fet.librarymanagement.payload.catalog.Search;
-import com.fet.librarymanagement.payload.book.Book;
+import com.fet.librarymanagement.entities.services.Search;
+import com.fet.librarymanagement.entities.book.Book;
 
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
-public class Catalog implements Search {
+public class SearchBookImpl implements Search {
     private HashMap<String, List<Book>> bookTitles;
     private HashMap<String, List<Book>> bookAuthors;
     private HashMap<String, List<Book>> bookSubjects;

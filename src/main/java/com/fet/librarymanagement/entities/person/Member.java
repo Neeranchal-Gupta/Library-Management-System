@@ -1,16 +1,24 @@
-package com.fet.librarymanagement.payload.person;
+package com.fet.librarymanagement.entities.person;
 
-import com.fet.librarymanagement.payload.book.*;
+import com.fet.librarymanagement.entities.book.*;
 import com.fet.librarymanagement.constants.Constants;
 import com.fet.librarymanagement.enumerations.ReservationStatus;
-import com.fet.librarymanagement.payload.account.Account;
-import com.fet.librarymanagement.payload.account.Fine;
+import com.fet.librarymanagement.entities.account.Account;
+import com.fet.librarymanagement.entities.account.Fine;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.util.Date;
 
+@Document(collection = "library_member")
 public class Member extends Account {
+
+    @Field("Membership_Date")
     private Date dateOfMembership;
+    @Field("totalBooksCheckedout")
     private int totalBooksCheckedout;
+    @Field("fine")
+    private double fine;
 
     public int getTotalBooksCheckedout() {
         return 0;

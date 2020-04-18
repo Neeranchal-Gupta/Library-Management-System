@@ -1,8 +1,8 @@
-package com.fet.librarymanagement.payload.book;
+package com.fet.librarymanagement.entities.book;
 
 import com.fet.librarymanagement.enumerations.BookFormat;
 import com.fet.librarymanagement.enumerations.BookStatus;
-import com.fet.librarymanagement.payload.location.Rack;
+import com.fet.librarymanagement.entities.location.Rack;
 
 import java.util.Date;
 
