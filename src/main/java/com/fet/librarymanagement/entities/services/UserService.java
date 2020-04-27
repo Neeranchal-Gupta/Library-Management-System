@@ -8,18 +8,9 @@ import edu.sjsu.cmpe275.lms.entity.UserVerfToken;
 
 import java.util.List;
 
-/**
- * @author SkandaBhargav
- */
+
 public interface UserService {
 
-
-    /**
-     * @param sjsuid
-     * @param useremail
-     * @param password
-     * @return
-     */
     User createUser(long sjsuid, String useremail, String password);
 
     /**
